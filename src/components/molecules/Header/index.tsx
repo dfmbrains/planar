@@ -15,7 +15,7 @@ const Header = () => {
                     <div className={styles.tools}>
                         <ul className={styles.menu}>
                             <li>
-                                <NavLink to={"/"}>Appraise</NavLink>
+                                <NavLink to={"/personal"}>Appraise</NavLink>
                             </li>
                             <li>
                                 <NavLink to={"/"}>About</NavLink>

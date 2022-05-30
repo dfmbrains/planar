@@ -19,13 +19,14 @@
     line-height: 110%;
     color: #000000;
     padding: 9px 20px;
-    text-transform: unset
+    text-transform: unset;
+    margin: 0 0 35px;
   }
 }
 
 .info {
+  padding: 40px 0 0;
   display: flex;
-  align-items: center;
   justify-content: center;
   column-gap: 85px;
 }
@@ -64,6 +65,7 @@
   margin: 40px 0 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   row-gap: 10px;
 }
 
@@ -71,6 +73,13 @@
   display: flex;
   align-items: center;
   column-gap: 17px;
+
+  p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+    color: #5A5A5A;
+  }
 }
 
 .createBtn {
@@ -78,6 +87,8 @@
   justify-content: center;
 
   button {
+    top: -120px;
+    position: relative;
     font-weight: 700;
     font-size: 30px;
     line-height: 100%;
@@ -96,4 +107,39 @@
   font-size: 24px;
   line-height: 110%;
   color: #727272;
+}
+
+.rightRow {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  margin: 0 0 25px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.tools {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+
+  p {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110%;
+  }
+}
+
+.address {
+  display: flex;
+  column-gap: 10px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 110%;
+  color: #727272;
+  margin: 0 0 35px;
 }

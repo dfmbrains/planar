@@ -40,13 +40,17 @@ const Personal = () => {
                         </div>
                         <div className={styles.right}>
                             <div className={styles.rightRow}>
-                                <h2>Mandalorian</h2>
-                                <img src={tassel} alt=""/>
-                                <p>153</p>
-                                <img src={eye} alt=""/>
-                                <p>153</p>
+                                <h2 className={styles.title}>Mandalorian</h2>
+                                <div className={styles.tools}>
+                                    <img src={tassel} alt=""/>
+                                    <p>153</p>
+                                </div>
+                                <div className={styles.tools}>
+                                    <img src={eye} alt=""/>
+                                    <p>153</p>
+                                </div>
                             </div>
-                            <div>
+                            <div className={styles.address}>
                                 <p>0xfed5...5efgfd</p>
                                 <i className="ri-file-copy-line"/>
                             </div>
