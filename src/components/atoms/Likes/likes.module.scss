@@ -1,0 +1,24 @@
+.box {
+  background: rgba(125, 125, 125, 0.4);
+  backdrop-filter: blur(20px);
+  border-radius: 30px;
+  padding: 6px 10px;
+  display: inline-block;
+
+  i {
+    font-size: 22px;
+    color: white;
+  }
+  p {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+  }
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}

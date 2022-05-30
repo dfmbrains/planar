@@ -1,0 +1,85 @@
+.box {
+  width: 100%;
+}
+
+.img {
+  height: 360px;
+  width: 100%;
+  position: relative;
+  top: 40px;
+  border-radius: 0 0 40px 40px;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 150%;
+    max-height: 150%;
+    min-height: 100%;
+    min-width: 100%;
+  }
+}
+
+.content {
+  background: #FFFFFF;
+  padding: 60px 30px 30px;
+  border: 0.75px solid #000000;
+  border-radius: 0 0 40px 40px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  &:first-child {
+    margin: 0 0 25px;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 111%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.price {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.eth {
+  width: 22px;
+}
+
+.user {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+}
+
+.userImg {
+  width: 26px;
+  height: 26px;
+}
+
+.count {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.countImg {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,99 @@
+.bg {
+  width: 100%;
+}
+
+.contentPart {
+  background: #f0f0f0;
+  position: relative;
+  top: -170px;
+  border-radius: 170px 170px 0 0;
+}
+
+.right {
+  .followBtn {
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 18px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    color: #000000;
+    padding: 9px 20px;
+    text-transform: unset
+  }
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 85px;
+}
+
+.left {
+  position: relative;
+  top: -180px;
+}
+
+.personCard {
+  background: #FFFFFF;
+  box-shadow: 0 10px 27px -4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  width: 360px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconBox {
+  border: 3px solid #000000;
+  border-radius: 14px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  i {
+    font-size: 24px;
+  }
+}
+
+.socialBox {
+  margin: 40px 0 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  column-gap: 17px;
+}
+
+.createBtn {
+  display: flex;
+  justify-content: center;
+
+  button {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    border-radius: 25px;
+    padding: 23px 100px;
+    color: black;
+    text-transform: unset;
+  }
+}
+
+.text {
+  width: 485px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 110%;
+  color: #727272;
+}

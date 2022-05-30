@@ -1,0 +1,14 @@
+.box {
+  background: rgba(125, 125, 125, 0.4);
+  backdrop-filter: blur(20px);
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  i {
+    font-size: 20px;
+    color: white;
+  }
+}

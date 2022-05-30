@@ -1,0 +1,162 @@
+.home {
+  height: 100vh;
+  background: url("../../assets/images/bghome.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background: #FFFFFF;
+  box-shadow: 0 2px 44px -1px rgba(102, 102, 102, 0.67);
+  border-radius: 70px;
+  padding: 25px;
+  display: flex;
+  column-gap: 25px;
+  width: 100%;
+  position: relative;
+  margin: 0 0 8%;
+}
+
+.img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
+}
+
+.imgBox {
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 110%;
+  margin: 0 0 50px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+
+.card {
+  width: 50%;
+
+  &:nth-child(2n) {
+    border-left: 2px solid #676767;
+    padding: 0 0 0 15px;
+  }
+}
+
+.cardsTitle {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 110%;
+  color: #868686;
+  margin: 0 0 10px;
+}
+
+.cardsRow {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+  }
+}
+
+.btnBox {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0;
+
+  button {
+    padding: 15px 0;
+    text-transform: unset;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+    color: white;
+    width: 60%;
+    background: #000000;
+    border-radius: 22px;
+
+    &:hover {
+      background: #343434;
+    }
+  }
+}
+
+.likes {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+.zoom {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}
+
+.cards {
+  padding: 45px 0;
+  background: #f0f0f0;
+  position: relative;
+  top: -170px;
+  border-radius: 170px 170px 0 0;
+  height: 200vh;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardBox {
+  width: calc(25% - 90px / 4);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+  margin: 0 0 10px;
+  position: relative;
+
+  &:after {
+    content: '';
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #E2E2E2;
+  }
+}
+
+.item {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 100%;
+  padding: 0 0 10px;
+  cursor: pointer;
+  z-index: 2;
+}
